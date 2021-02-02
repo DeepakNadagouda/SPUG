@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubscribeItems">
+
+    <TextView
+        android:id="@+id/itemsView"
+        android:layout_width="288dp"
+        android:layout_height="274dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="285dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/subcribeButton"
+        android:layout_width="124dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="501dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="185dp"
+        android:text="Go Buy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="280dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="589dp"
+        android:text="Item you have selected and their count :"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

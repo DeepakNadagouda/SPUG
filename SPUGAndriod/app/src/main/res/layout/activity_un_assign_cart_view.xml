@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/giveButtonView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UnAssignCartView">
+
+    <Button
+        android:id="@+id/giveButton"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="200dp"
+        android:text="Buy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ListOfItem"
+        android:layout_width="260dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:text="Item bought and cost :"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</RelativeLayout>
